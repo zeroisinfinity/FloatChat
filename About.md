@@ -15,8 +15,6 @@ Instead of coding or parsing NetCDF files, users can simply **ask questions in n
 - Provides **real-world datasets** for students/educators.  
 - Boosts **public awareness** on oceans and climate.  
 
-## System Flow (Simplified)
-
 # FloatChat – AI for ARGO Ocean Data 🌊🤖
 
 ## System Flow
@@ -29,10 +27,10 @@ flowchart TD
     D --> E([📊 Visualization + Insights])
     E --> F([💬 Output to User])
 
-    %% Styling
-    style A fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
-    style B fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
-    style C fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
-    style D fill:#fff3e0,stroke:#ff9800,stroke-width:2px
-    style E fill:#fce4ec,stroke:#e91e63,stroke-width:2px
-    style F fill:#ede7f6,stroke:#673ab7,stroke-width:2px
+    %% Styling with dark text
+    style A fill:#e3f2fd,stroke:#2196f3,stroke-width:2px,color:#000000
+    style B fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px,color:#000000
+    style C fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,color:#000000
+    style D fill:#fff3e0,stroke:#ff9800,stroke-width:2px,color:#000000
+    style E fill:#fce4ec,stroke:#e91e63,stroke-width:2px,color:#000000
+    style F fill:#ede7f6,stroke:#673ab7,stroke-width:2px,color:#000000
