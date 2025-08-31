@@ -19,6 +19,17 @@ Instead of coding or parsing NetCDF files, users can simply **ask questions in n
 
 ```mermaid
 flowchart LR
+    A[User Query in Natural Language] --> B[AI Query Engine]
+    B --> C[ARGO Ocean Data / NetCDF]
+    C --> D[Data Processing & ML Analysis]
+    D --> E[Visualization & Answer Generator]
+    E --> F[User Output (Chat + Charts)]- Provides **real-world datasets** for students/educators.  
+- Boosts **public awareness** on oceans and climate.  
+
+## System Flow (Simplified)
+
+```mermaid
+flowchart LR
     A[User Query (Plain Language)] --> B[AI Query Engine]
     B --> C[Data Pipeline (NetCDF, ARGO, APIs)]
     C --> D[Processing & Analysis (Python/ML)]
