@@ -17,10 +17,22 @@ Instead of coding or parsing NetCDF files, users can simply **ask questions in n
 
 ## System Flow (Simplified)
 
+# FloatChat – AI for ARGO Ocean Data 🌊🤖
+
+## System Flow
+
 ```mermaid
-flowchart LR
-    A[User Query in Natural Language] --> B[AI Query Engine]
-    B --> C[ARGO Ocean Data / NetCDF]
-    C --> D[Data Processing & ML Analysis]
-    D --> E[Visualization & Answer Generator]
-    E --> F[User Output: Chat + Charts]
+flowchart TD
+    A([🧑 User Query]) --> B([🤖 AI Query Engine])
+    B --> C([🌊 ARGO Data / NetCDF])
+    C --> D([⚙️ Data Processing & ML])
+    D --> E([📊 Visualization + Insights])
+    E --> F([💬 Output to User])
+
+    %% Styling
+    style A fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
+    style B fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
+    style C fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
+    style D fill:#fff3e0,stroke:#ff9800,stroke-width:2px
+    style E fill:#fce4ec,stroke:#e91e63,stroke-width:2px
+    style F fill:#ede7f6,stroke:#673ab7,stroke-width:2px
